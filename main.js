@@ -66,7 +66,7 @@ function render(S) {
   $("#beyond-list").innerHTML = S.beyond.map((b) => `<dt>${esc(b.label)}</dt><dd>${esc(b.value)}</dd>`).join("");
   $("#beyond-list").classList.add("reveal");
 
-  const contact = [`<a class="btn solid" href="mailto:${esc(S.email)}">${esc(S.email)}</a>`];
+  const contact = [`<a class="btn solid email" href="mailto:${esc(S.email)}">${esc(S.email).replace("@", "@<wbr>")}</a>`];
   if (S.linkedin) contact.push(`<a class="btn" href="${esc(S.linkedin)}" target="_blank" rel="noopener">LinkedIn</a>`);
   if (S.phone) contact.push(`<a class="btn" href="tel:${esc(S.phone.replace(/\s/g, ""))}">${esc(S.phone)}</a>`);
   if (S.cv) contact.push(`<a class="btn" href="${esc(S.cv)}" target="_blank" rel="noopener">CV</a>`);

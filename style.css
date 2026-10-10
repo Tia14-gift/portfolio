@@ -17,7 +17,7 @@
 }
 
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; scroll-padding-top: 80px; }
+html { scroll-behavior: smooth; scroll-padding-top: 80px; overflow-x: clip; }
 body {
   margin: 0;
   background: var(--cream);
@@ -207,6 +207,8 @@ img, video, iframe { display: block; max-width: 100%; }
 .contact-title { margin: 0; font: italic 500 clamp(44px, 7vw, 76px)/1 var(--serif); }
 .contact-lead { margin: 18px auto 36px; color: var(--bronze); max-width: 520px; }
 .contact-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 14px; }
+.contact-links .btn { max-width: 100%; }
+.btn.email { text-transform: none; letter-spacing: .04em; font-size: 14px; padding-inline: 20px; text-align: center; }
 
 .footer {
   display: flex; justify-content: center; flex-wrap: wrap; gap: 10px;
