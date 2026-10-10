@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tiarere Lussan</title>
+  <meta name="description" content="Tiarere Lussan — EDHEC Master in Management student from Tahiti, seeking internships in art, auction houses, luxury and tech in New York.">
+  <meta property="og:title" content="Tiarere Lussan">
+  <meta property="og:description" content="Art · Auction Houses · Luxury · Tech — New York, 2027–2028">
+  <meta name="theme-color" content="#F1E8E3">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Fleur de tiare, réutilisée partout -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="tiare" viewBox="-100 -100 200 200">
+        <g fill="none" stroke="currentColor" style="stroke-width: var(--sw, 1.1)" stroke-linecap="round">
+          <g id="petal">
+            <path d="M0 -6 C 14 -30, 18 -70, 0 -96 C -18 -70, -14 -30, 0 -6 Z"/>
+            <path d="M0 -14 L0 -78" opacity=".5"/>
+          </g>
+          <use href="#petal" transform="rotate(51.43)"/>
+          <use href="#petal" transform="rotate(102.86)"/>
+          <use href="#petal" transform="rotate(154.29)"/>
+          <use href="#petal" transform="rotate(205.71)"/>
+          <use href="#petal" transform="rotate(257.14)"/>
+          <use href="#petal" transform="rotate(308.57)"/>
+        </g>
+        <circle r="6" fill="var(--gold-pale)" stroke="var(--gold)" stroke-width="1.2"/>
+        <circle r="2.4" fill="var(--gold)" opacity=".55"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <header class="nav" id="nav">
+    <a class="nav-mark" href="#top" aria-label="Back to top">
+      <svg aria-hidden="true"><use href="#tiare"/></svg>
+      <span>T. Lussan</span>
+    </a>
+    <nav aria-label="Sections">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <svg class="hero-flower" aria-hidden="true"><use href="#tiare"/></svg>
+      <div class="hero-text">
+        <h1 data-field="name"></h1>
+        <span class="rule"></span>
+        <p class="eyebrow" data-field="seeking"></p>
+        <p class="focus" id="focus"></p>
+        <p class="avail" data-field="availability"></p>
+        <p class="avail-detail" data-field="availabilityDetail"></p>
+        <div class="hero-actions" id="hero-actions"></div>
+      </div>
+      <p class="origin" data-field="origin"></p>
+    </section>
+
+    <section id="about" class="section">
+      <h2 class="section-title"><span>I</span>About</h2>
+      <div class="about" id="about-text"></div>
+    </section>
+
+    <section id="experience" class="section">
+      <h2 class="section-title"><span>II</span>Experience</h2>
+      <ol class="timeline" id="experience-list"></ol>
+    </section>
+
+    <section id="projects" class="section">
+      <h2 class="section-title"><span>III</span>Projects</h2>
+      <div class="projects" id="project-list"></div>
+    </section>
+
+    <section id="education" class="section">
+      <h2 class="section-title"><span>IV</span>Education</h2>
+      <div class="education" id="education-list"></div>
+      <dl class="beyond" id="beyond-list"></dl>
+    </section>
+
+    <section id="contact" class="section contact">
+      <svg class="contact-flower" aria-hidden="true"><use href="#tiare"/></svg>
+      <h2 class="contact-title">Let's talk</h2>
+      <p class="contact-lead">Available for internships in New York, Summer 2027 – Spring 2028.</p>
+      <div class="contact-links" id="contact-links"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span data-field="name"></span>
+    <span class="dot">·</span>
+    <span>From Tahiti, French Polynesia</span>
+  </footer>
+
+  <dialog class="modal" id="modal" aria-labelledby="modal-title">
+    <button class="modal-close" id="modal-close" aria-label="Close">×</button>
+    <div class="modal-body" id="modal-body"></div>
+  </dialog>
+
+  <script src="content.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
