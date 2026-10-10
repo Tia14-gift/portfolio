@@ -85,8 +85,21 @@
       "description": "I photograph the children's activities and produce the association's visual communication, alongside fundraising — answering calls for projects to finance holidays — and weekly tutoring.",
       "link": "",
       "linkLabel": "",
-      "cover": "",
-      "gallery": [],
+      "cover": "images/vlv-cover.jpg",
+      "gallery": [
+        {
+          "src": "images/vlv-cover.jpg",
+          "caption": ""
+        },
+        {
+          "src": "images/vlv-walk.jpg",
+          "caption": ""
+        },
+        {
+          "src": "images/vlv-farm.jpg",
+          "caption": ""
+        }
+      ],
       "video": {
         "youtube": "",
         "file": ""
