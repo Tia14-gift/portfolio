@@ -1,6 +1,10 @@
-// Construit la page à partir de content.js — pas besoin de modifier ce fichier.
-(function () {
-  const S = window.SITE;
+// Construit la page à partir de content.json — pas besoin de modifier ce fichier.
+fetch("content.json?t=" + Date.now(), { cache: "no-store" })
+  .then((r) => r.json())
+  .then(render)
+  .catch((err) => console.error("content.json illisible :", err));
+
+function render(S) {
   const $ = (sel) => document.querySelector(sel);
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const flower = '<svg aria-hidden="true"><use href="#tiare"/></svg>';
@@ -121,4 +125,4 @@
   } else {
     document.querySelectorAll(".reveal").forEach((el) => el.classList.add("in"));
   }
-})();
+}

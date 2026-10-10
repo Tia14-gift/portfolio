@@ -1,22 +1,15 @@
 # Site de Tiarere Lussan
 
-## Modifier le contenu
-Tout le texte est dans **`content.js`**. Ouvre-le (VS Code ou TextEdit) et change uniquement ce qui est entre guillemets.
+## Modifier le contenu (le plus simple)
+1. Va sur **https://app.pagescms.org** et connecte-toi avec GitHub.
+2. Ouvre le dépôt **portfolio** → **Mon site**.
+3. Modifie les champs, ajoute des photos avec les boutons, puis clique **Save**.
+Le site se met à jour tout seul en 1–2 minutes. Rien à installer, rien à pousser.
 
-| Je veux…                     | Je fais…                                                                 |
-|------------------------------|--------------------------------------------------------------------------|
-| Ajouter une photo de projet  | Mets `ma-photo.jpg` dans `images/`, puis `cover: "images/ma-photo.jpg"`   |
-| Plusieurs photos             | `gallery: ["images/a.jpg", { src: "images/b.jpg", caption: "Légende" }]` |
-| Une vidéo YouTube            | `video: { youtube: "dQw4w9WgXcQ" }` (ce qui suit `v=` dans le lien)      |
-| Une vidéo à moi (< 50 Mo)    | Mets-la dans `videos/`, puis `video: { file: "videos/film.mp4" }`         |
-| Un lien vers un site         | `link: "https://..."`                                                    |
-| Mon CV en PDF                | Mets-le dans `documents/`, puis `cv: "documents/CV.pdf"`                  |
+Le contenu est dans `content.json`, les photos dans `images/`.
+Astuce : réduis les photos à ~2000 px de large avant de les envoyer, et préfère YouTube (vidéo « non répertoriée ») pour les vidéos.
 
-Astuce photos : réduis-les à ~2000 px de large (Aperçu → Outils → Ajuster la taille) pour que le site reste rapide.
-Pour les vidéos longues, préfère YouTube (en « non répertoriée »).
-
-## Voir le site sur mon ordi
-Double-clique sur `index.html`.
+⚠️ Si tu modifies sur pagescms.org, fais **Fetch origin** dans GitHub Desktop avant toute modification sur ton ordi, pour récupérer les changements.
 
 ## Mettre en ligne (GitHub Pages, gratuit)
 1. GitHub Desktop → **File → Add Local Repository** → choisis ce dossier `portfolio`.

@@ -1,0 +1,113 @@
+# Configuration de l'interface Pages CMS (https://app.pagescms.org)
+media:
+  input: images
+  output: images
+
+content:
+  - name: site
+    label: Mon site
+    type: file
+    path: content.json
+    format: json
+    fields:
+      # ── En-tête ──────────────────────────────
+      - name: name
+        label: Nom
+        type: string
+      - name: seeking
+        label: Accroche (petites majuscules)
+        type: string
+      - name: focus
+        label: Domaines (affichés en italique)
+        type: string
+        list: true
+      - name: availability
+        label: Disponibilité
+        type: string
+      - name: availabilityDetail
+        label: Détail de la disponibilité
+        type: string
+      - name: origin
+        label: Origine (en bas à droite)
+        type: text
+
+      # ── Contact ──────────────────────────────
+      - name: email
+        label: E-mail
+        type: string
+      - name: phone
+        label: Téléphone (laisser vide pour le cacher)
+        type: string
+      - name: linkedin
+        label: Lien LinkedIn
+        type: string
+      - name: cv
+        label: CV en PDF (optionnel)
+        type: file
+
+      # ── À propos ─────────────────────────────
+      - name: about
+        label: À propos (un paragraphe par élément)
+        type: text
+        list: true
+
+      # ── Expériences ──────────────────────────
+      - name: experience
+        label: Expériences
+        type: object
+        list: true
+        fields:
+          - { name: company, label: Entreprise, type: string }
+          - { name: role, label: Poste, type: string }
+          - { name: place, label: Lieu, type: string }
+          - { name: dates, label: Dates, type: string }
+          - { name: summary, label: Résumé (une phrase), type: text }
+          - { name: details, label: Missions (une par ligne), type: text, list: true }
+          - { name: image, label: Photo (optionnel), type: image }
+
+      # ── Projets ──────────────────────────────
+      - name: projects
+        label: Projets
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Titre, type: string }
+          - { name: tag, label: Catégorie (ex. Photography · Non-profit), type: string }
+          - { name: summary, label: Résumé (sur la carte), type: text }
+          - { name: description, label: Description détaillée, type: text }
+          - { name: cover, label: Photo de couverture, type: image }
+          - name: gallery
+            label: Galerie de photos
+            type: object
+            list: true
+            fields:
+              - { name: src, label: Photo, type: image }
+              - { name: caption, label: Légende (optionnel), type: string }
+          - name: video
+            label: Vidéo (optionnel)
+            type: object
+            fields:
+              - { name: youtube, label: "Identifiant YouTube (ce qui suit v= dans le lien)", type: string }
+              - { name: file, label: Ou fichier vidéo (moins de 50 Mo), type: file }
+          - { name: link, label: Lien vers un site (optionnel), type: string }
+          - { name: linkLabel, label: Texte du bouton du lien, type: string }
+
+      # ── Formation ────────────────────────────
+      - name: education
+        label: Formation
+        type: object
+        list: true
+        fields:
+          - { name: degree, label: Diplôme, type: string }
+          - { name: school, label: École, type: string }
+          - { name: place, label: Lieu, type: string }
+          - { name: dates, label: Dates, type: string }
+          - { name: note, label: Précision, type: string }
+
+      - name: beyond
+        label: Compétences et centres d'intérêt
+        type: object
+        list: true
+        fields:
+          - { name: label, label: Titre (ex. Languages), type: string }
+          - { name: value, label: Contenu, type: string }

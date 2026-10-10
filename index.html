@@ -107,12 +107,8 @@
   </dialog>
 
   <script>
-    // Charge toujours la dernière version du contenu (pas besoin de changer de numéro)
-    (function () {
-      var t = Date.now();
-      function load(src, next) { var s = document.createElement("script"); s.src = src + "?t=" + t; s.onload = next; document.body.appendChild(s); }
-      load("content.js", function () { load("main.js"); });
-    })();
+    // Charge toujours la dernière version (pas de cache)
+    var s = document.createElement("script"); s.src = "main.js?t=" + Date.now(); document.body.appendChild(s);
   </script>
 </body>
 </html>
