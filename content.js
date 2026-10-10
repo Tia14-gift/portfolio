@@ -75,17 +75,6 @@ window.SITE = {
   /* Projets : clique sur une carte du site pour voir le détail (photos, vidéo, lien). */
   projects: [
     {
-      title: "Bois Lumi",
-      tag: "Website",
-      summary: "Design and build of the Bois Lumi website.",
-      description: "À compléter : présente le projet, ton rôle et le résultat.",
-      link: "", // ← colle ici l'adresse du site Bois Lumi
-      linkLabel: "Visit the website",
-      cover: "",
-      gallery: [],
-      video: null
-    },
-    {
       title: "Turgot Alumni",
       tag: "Website · Leadership",
       summary: "Alumni directory and website for the Lycée Turgot preparatory-class network, which I now chair.",
