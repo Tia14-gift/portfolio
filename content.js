@@ -17,7 +17,7 @@ window.SITE = {
   origin: "From Tahiti,\nFrench Polynesia",
 
   email: "tiarere.lussan@edhec.com",
-  phone: "", // ex. "+33 7 67 35 81 80" — laissé vide : un site public est lu par tout le monde
+  phone: "+1 510 423-2488", // laisse "" pour le cacher
   linkedin: "https://www.linkedin.com/in/tiarere-lussan",
   cv: "", // ex. "documents/CV-Tiarere-Lussan.pdf" — le bouton apparaît dès que c'est rempli
 

@@ -24,7 +24,7 @@ Double-clique sur `index.html`.
 3. Sur github.com, ouvre le dépôt → **Settings → Pages** → Source : *Deploy from a branch*, branche `main`, dossier `/ (root)` → **Save**.
 4. Après 1–2 minutes, le site est en ligne à `https://tia14-gift.github.io/portfolio/`.
 
-Après chaque modification : dans `index.html`, augmente le numéro `?v=2` → `?v=3` (3 endroits) pour que les navigateurs prennent la nouvelle version. Puis GitHub Desktop → écris un résumé → **Commit to main** → **Push origin**. Le site se met à jour tout seul.
+Après chaque modification : GitHub Desktop → écris un résumé → **Commit to main** → **Push origin**. Le site se met à jour tout seul.
 
 ## QR code
 Génère le QR code vers l'adresse du site (ou mieux, ton propre nom de domaine, réglable dans Settings → Pages → Custom domain).
