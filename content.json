@@ -13,7 +13,6 @@
   "email": "tiarere.lussan@edhec.com",
   "phone": "+1 510 423-2488",
   "linkedin": "https://www.linkedin.com/in/tiarere-lussan",
-  "cv": "",
   "about": [
     "Raised between the lagoons of Tahiti and the lecture halls of Paris, I am a Master in Management student at EDHEC Business School with a B.A. in Economics from Université Paris 1 Panthéon-Sorbonne.",
     "My path has taken me from grading Tahitian pearls for an international clientele to analysing global markets for Tahiti Tourisme and building business partnerships in Silicon Valley. What connects it all is a love of craft, culture and the people behind them — and the conviction that great objects deserve great stories.",
@@ -31,8 +30,7 @@
         "Onboarded new clients, from qualifying their needs through to closing.",
         "Produced marketing materials and structured internal processes — CRM, onboarding and workflows.",
         "Led the digital refresh: website redesign, LinkedIn presence and content creation."
-      ],
-      "image": ""
+      ]
     },
     {
       "company": "Tahiti Tourisme",
@@ -46,8 +44,7 @@
         "Maintained performance tracking on Salesforce — data entry, quality control and reporting — including six months of KPIs for the Canadian market.",
         "Proposed an economics-led format for the Brainstorming Week gathering all market representatives in Tahiti.",
         "Took the minutes of the department's two-day strategy seminar aboard the Star Breeze."
-      ],
-      "image": ""
+      ]
     },
     {
       "company": "Love Here Pearl Farm",
@@ -59,8 +56,7 @@
         "Harvested, sorted and graded Tahitian pearls by size, lustre, shape and colour.",
         "Sold to a prestigious international clientele visiting from cruise ships.",
         "Handled sales administration and follow-up."
-      ],
-      "image": ""
+      ]
     }
   ],
   "projects": [
@@ -69,55 +65,31 @@
       "tag": "Website · Leadership",
       "summary": "Alumni directory and website for the Lycée Turgot preparatory-class network, which I now chair.",
       "description": "As president of the association, I designed and developed its website and alumni directory (React, Vite), and run its social media and the annual orientation forum for preparatory-class students.",
-      "link": "",
-      "linkLabel": "Visit the website",
-      "cover": "",
-      "gallery": [],
-      "video": {
-        "youtube": "",
-        "file": ""
-      }
+      "linkLabel": "Visit the website"
     },
     {
       "title": "Vive les Vacances !",
       "tag": "Photography · Non-profit",
       "summary": "Photography and visual communication for a charity sending children from Lille on holiday.",
       "description": "I photograph the children's activities and produce the association's visual communication, alongside fundraising — answering calls for projects to finance holidays — and weekly tutoring.",
-      "link": "",
-      "linkLabel": "",
       "cover": "images/vlv-cover.jpg",
       "gallery": [
         {
-          "src": "images/vlv-cover.jpg",
-          "caption": ""
+          "src": "images/vlv-cover.jpg"
         },
         {
-          "src": "images/vlv-walk.jpg",
-          "caption": ""
+          "src": "images/vlv-walk.jpg"
         },
         {
-          "src": "images/vlv-farm.jpg",
-          "caption": ""
+          "src": "images/vlv-farm.jpg"
         }
-      ],
-      "video": {
-        "youtube": "",
-        "file": ""
-      }
+      ]
     },
     {
       "title": "Heiva i Tahiti",
       "tag": "Dance · Culture",
       "summary": "Dancer with Tamariki Poerani at French Polynesia's foremost cultural festival.",
-      "description": "Six months of rehearsals with the Tamariki Poerani troupe for the Heiva i Tahiti, including hand-crafting traditional costumes from natural fibres.",
-      "link": "",
-      "linkLabel": "",
-      "cover": "",
-      "gallery": [],
-      "video": {
-        "youtube": "",
-        "file": ""
-      }
+      "description": "Six months of rehearsals with the Tamariki Poerani troupe for the Heiva i Tahiti, including hand-crafting traditional costumes from natural fibres."
     }
   ],
   "education": [
@@ -138,9 +110,7 @@
     {
       "degree": "Introduction to Art History",
       "school": "École du Louvre",
-      "place": "Paris, France",
-      "dates": "",
-      "note": ""
+      "place": "Paris, France"
     }
   ],
   "beyond": [
