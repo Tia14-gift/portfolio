@@ -21,6 +21,21 @@
   ],
   "experience": [
     {
+      "company": "Gatti Conseil",
+      "role": "Audit Intern",
+      "place": "Paris, France",
+      "dates": "September – December 2026",
+      "summary": "Statutory audit firm. On my first engagements, I automated one of the most time-consuming audit tests with AI agents.",
+      "details": [
+        "Took part in audit engagements, testing the accuracy of clients' sales listings against invoices, quotes, work orders and intervention reports.",
+        "Designed two template workbooks with built-in formulas and colour-coded conclusions, one for repair jobs without a quote and one for finishing works with a quote.",
+        "Built 18 AI agents in DataSnipper's Excel Agent: some extract the documents, others check those extractions in read-only mode, and the last ones draft conclusion comments and the list of documents to request from the client.",
+        "Cut a batch of 50 tests from 9 hours by hand to about 2 hours, review included: 4 to 5 times faster (initial estimate).",
+        "Wrote a step-by-step guide and presented the method to the team, including its safeguards and limits."
+      ],
+      "image": ""
+    },
+    {
       "company": "Tech Butlers LLC",
       "role": "Business Development & Client Relations",
       "place": "San Jose, California",
