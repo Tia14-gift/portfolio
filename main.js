@@ -96,6 +96,7 @@ function render(S) {
       <p class="desc">${esc(p.description)}</p>
       ${p.link ? `<p><a class="btn solid" href="${esc(p.link)}" target="_blank" rel="noopener">${esc(p.linkLabel || "Visit")} ↗</a></p>` : ""}
       <div class="media">
+        ${(p.slides || []).length ? `<div class="slides">${p.slides.map((src, n) => `<img src="${esc(typeof src === "string" ? src : src.src)}" alt="${esc(p.title)}, slide ${n + 1}" loading="lazy">`).join("")}</div>` : ""}
         ${videoHtml(p.video)}
         ${gallery ? `<div class="gallery">${gallery}</div>` : ""}
       </div>`;

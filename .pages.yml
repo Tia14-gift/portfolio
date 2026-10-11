@@ -79,6 +79,10 @@ content:
           - { name: summary, label: Résumé (sur la carte), type: text }
           - { name: description, label: Description détaillée, type: text }
           - { name: cover, label: Photo de couverture, type: image }
+          - name: slides
+            label: Présentation (une image par diapo, affichées en entier)
+            type: image
+            list: true
           - name: gallery
             label: Galerie de photos
             type: object
