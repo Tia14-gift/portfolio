@@ -38,6 +38,9 @@ content:
       - name: phone
         label: Téléphone (laisser vide pour le cacher)
         type: string
+      - name: whatsapp
+        label: WhatsApp (numéro avec indicatif, laisser vide pour le cacher)
+        type: string
       - name: linkedin
         label: Lien LinkedIn
         type: string

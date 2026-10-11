@@ -12,9 +12,11 @@
   "origin": "From Tahiti,\nFrench Polynesia",
   "email": "tiarere.lussan@edhec.com",
   "phone": "+1 510 423-2488",
+  "whatsapp": "+33 7 67 35 81 80",
   "linkedin": "https://www.linkedin.com/in/tiarere-lussan",
+  "cv": "",
   "about": [
-    "Born and raised in Tahiti, I left for Paris at 18 to join the ENS D2 preparatory class at Lycée Turgot: two intensive years of economics, law, management and mathematics. I then completed a final year of Economics at Université Paris 1 Panthéon-Sorbonne before joining EDHEC Business School, where I am now in the first year of the Master in Management.",
+    "Born and raised in Tahiti, I left for Paris at 18 to join the ENS D2 preparatory class at Lycée Turgot: two intensive years of microeconomics, macroeconomics, economic history and mathematics. I then completed a final year of Economics at Université Paris 1 Panthéon-Sorbonne before joining EDHEC Business School, where I am now in the first year of the Master in Management.",
     "Alongside my studies, I am an audit intern at Gatti Conseil, where I built AI agents that cut a key audit test from nine hours to about two. Before that, my path took me from grading Tahitian pearls for an international clientele to analysing global markets for Tahiti Tourisme and building business partnerships in Silicon Valley. What connects it all is a love of craft, culture and the people behind them, and the conviction that great objects deserve great stories.",
     "I am now looking for two six-month internships in New York, at the meeting point of art, luxury and technology."
   ],
@@ -79,7 +81,8 @@
       "tag": "Website · Leadership",
       "summary": "Alumni directory and website for the Lycée Turgot preparatory-class network, which I now chair.",
       "description": "As president of the association, I designed and built its website from scratch: a React site deployed on Vercel, connected to a Supabase database that powers the alumni directory.\n\nFeatures: alumni sign-up, a member area where alumni log in and edit their own profile, an admin area to approve and manage entries, email notifications, GDPR consent, and searchable orientation sheets and testimonials for current preparatory-class students.\n\nI also run the association's social media and its annual orientation forum.",
-      "linkLabel": "Visit the website"
+      "linkLabel": "Visit turgotalumni.fr",
+      "link": "https://www.turgotalumni.fr"
     },
     {
       "title": "Vive les Vacances !",
@@ -124,7 +127,9 @@
     {
       "degree": "Introduction to Art History",
       "school": "École du Louvre",
-      "place": "Paris, France"
+      "place": "Paris, France",
+      "dates": "2024 – 2025",
+      "note": "Independent auditor, out of personal interest (non-certifying)"
     }
   ],
   "beyond": [
