@@ -118,8 +118,8 @@
     {
       "title": "Turgot Alumni",
       "tag": "Website · Leadership",
-      "summary": "Alumni directory and website for the Lycée Turgot preparatory-class network, which I now chair.",
-      "description": "As president of the association, I designed and built its website from scratch: a React site deployed on Vercel, connected to a Supabase database that powers the alumni directory.\n\nFeatures: alumni sign-up, a member area where alumni log in and edit their own profile, an admin area to approve and manage entries, email notifications, GDPR consent, and searchable orientation sheets and testimonials for current preparatory-class students.\n\nI also run the association's social media and its annual orientation forum.",
+      "summary": "Alumni directory and website for the Lycée Turgot preparatory-class network, where I serve as vice-president.",
+      "description": "As vice-president of the association, I designed and built its website from scratch: a React site deployed on Vercel, connected to a Supabase database that powers the alumni directory.\n\nFeatures: alumni sign-up, a member area where alumni log in and edit their own profile, an admin area to approve and manage entries, email notifications, GDPR consent, and searchable orientation sheets and testimonials for current preparatory-class students.\n\nI also run the association's social media and its annual orientation forum.",
       "link": "https://www.turgotalumni.fr",
       "linkLabel": "Visit turgotalumni.fr",
       "cover": "images/turgot-alumni.svg"
