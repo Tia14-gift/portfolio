@@ -1,3 +1,5 @@
 .DS_Store
 # Photos VLV en attente de tri (non publiées)
 vlv/
+# Originaux lourds (les versions web sont dans images/ et videos/)
+sources/

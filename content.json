@@ -42,7 +42,7 @@
       "details": [
         "Analysed international and local markets to guide the promotion strategy of The Islands of Tahiti, with a focus on smoothing seasonality.",
         "Synthesised visitor profiles and school-holiday calendars for every market to sharpen off-peak targeting.",
-        "Maintained performance tracking on Salesforce — data entry, quality control and reporting — including six months of KPIs for the Canadian market.",
+        "Maintained performance tracking on Salesforce: data entry, quality control and reporting, including six months of KPIs for the Canadian market, and flagged indicators whose method or relevance was unclear (such as the estimated value of press trips).",
         "Proposed an economics-led format for the Brainstorming Week gathering all market representatives in Tahiti.",
         "Took the minutes of the department's two-day strategy seminar aboard the Star Breeze."
       ]
@@ -55,11 +55,13 @@
       "summary": "Three weeks living on a pearl farm on the island of Taha'a, taking part in every stage of Tahitian pearl production, from the lagoon to the client.",
       "details": [
         "Lived on the farm and worked alongside the team every day, taking part in the whole production cycle.",
-        "Attached pearl oysters to the culture lines that hang in the lagoon.",
+        "Attached pearl oysters to the ropes and nets that hang vertically in the lagoon, using the traditional fisherman's knot.",
         "Dived to secure the lines and nets underwater.",
-        "Harvested pearls from the oysters, then sorted and graded them by size, lustre, shape and colour.",
-        "Sold pearls to an international luxury clientele visiting from cruise ships, and handled sales administration."
-      ]
+        "Harvested pearls from the oysters, then graded them by size, colour and surface quality: top gem, A to E, and keshi pearls sold by weight.",
+        "Sold pearls to luxury passengers of the Star Breeze cruise ship on a private motu, where storytelling and adaptability make the sale.",
+        "Handled sales administration and follow-up."
+      ],
+      "image": "images/pearls-dive.jpg"
     }
   ],
   "projects": [
@@ -68,6 +70,37 @@
       "tag": "AI automation · Audit",
       "summary": "18 AI agents that automate the sales-accuracy tests of a financial audit: 50 tests go from 9 hours by hand to about 2 hours — 4 to 5 times faster. Built in my first three weeks at Gatti Conseil.",
       "description": "During my audit internship at Gatti Conseil, I automated the accuracy tests on a client's sales listing (IPE): checking that every sampled sale is backed by its invoice, quote or work order, and intervention report.\n\nWhat I built:\n— Ready-to-use Excel template sheets with built-in formulas and colour-coded conclusions.\n— 18 AI agents in DataSnipper: one checks that every document is present and correctly named, others extract invoices, quotes and intervention reports into the tables, each extraction is cross-checked by a second agent, and the last ones draft the conclusion comments and the list of documents to request from the client.\n— A step-by-step guide so that anyone on the team can run the test, even without prior DataSnipper experience.\n\nResult: a batch of 50 tests took a colleague 9 hours by hand; with the agents it takes about 2 hours, review included — roughly 7 hours saved per company audited, 4 to 5 times faster (initial estimate, documents already retrieved; timing on upcoming engagements in progress).\n\nThe AI does the reading and the checks; the auditor validates every entry and draws the conclusions. Every value stays linked to the exact spot on the source document, and the use of AI is documented for reviewers.\n\nClient data is confidential and not shown here."
+    },
+    {
+      "title": "Tahitian pearls, from lagoon to client",
+      "tag": "Luxury · Craftsmanship",
+      "summary": "Three weeks inside the full life cycle of a Tahitian pearl on Taha'a: lagoon work, harvest, grading and luxury retail.",
+      "description": "At Love Here Pearl Farm, I lived on site and took part in every stage of production.\n\nHow a Tahitian pearl is made\n— Pearl oysters (Pinctada margaritifera) come from the Tuamotu Islands. A grafter inserts a mother-of-pearl nucleus and a piece of mantle tissue: the most delicate step, which triggers the layering of nacre.\n— The oysters hang vertically on ropes and nets in the lagoon, identified by numbered buoys and cleaned every three months.\n— The first harvest comes after 12 to 18 months; an oyster can be regrafted up to three times over about seven years.\n\nWhat I did\n— Attached oysters to the lines and dived to secure them underwater.\n— Harvested the pearls and learned to grade them: top gem, A to E, shapes from round to baroque, and keshi, pure nacre pearls formed without a nucleus.\n— Sold them to luxury cruise passengers on a private motu.\n\nWhat I took away: a pearl's value is built through authenticity, storytelling and rarity. That conviction is what draws me to the meeting point of art, culture and business, from fine jewellery to auction houses.",
+      "cover": "images/pearls-harvest.jpg",
+      "gallery": [
+        {
+          "src": "images/pearls-harvest.jpg",
+          "caption": "A day's harvest"
+        },
+        {
+          "src": "images/pearls-oysters.jpg",
+          "caption": "Pearl oysters back from the lagoon"
+        },
+        {
+          "src": "images/pearls-dive.jpg",
+          "caption": "Securing the lines underwater"
+        },
+        {
+          "src": "images/pearls-team.jpg",
+          "caption": "With the team who taught me everything"
+        }
+      ],
+      "video": {
+        "youtube": "",
+        "file": "videos/pearls-opening.mp4"
+      },
+      "link": "",
+      "linkLabel": ""
     },
     {
       "title": "Turgot Alumni",
@@ -98,8 +131,8 @@
     {
       "title": "Heiva i Tahiti",
       "tag": "Dance · Culture",
-      "summary": "Dancer with Tamariki Poerani at French Polynesia's foremost cultural festival.",
-      "description": "Six months of rehearsals with the Tamariki Poerani troupe for the Heiva i Tahiti, including hand-crafting traditional costumes from natural fibres."
+      "summary": "Dancer with Tamariki Poerani at French Polynesia's foremost cultural festival, wearing a costume I knotted by hand.",
+      "description": "Six months of rehearsals with the Tamariki Poerani troupe for the Heiva i Tahiti, French Polynesia's foremost cultural festival.\n\nFor the stage, I hand-crafted my More, the traditional costume made of natural fibres. Each fibre is knotted by hand, with its own rhythm: a lesson that beauty is inseparable from discipline.\n\nTwo years later, on the pearl farm, I tied the very same knot to secure oysters to their lines in the lagoon, where a single loose knot can ruin months of growth. The same gesture links my cultural heritage to a craft: patience, tradition and precision."
     }
   ],
   "education": [
