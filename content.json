@@ -61,6 +61,20 @@
   ],
   "projects": [
     {
+      "title": "AI agents for audit testing",
+      "tag": "AI automation · Audit",
+      "summary": "18 AI agents that automate the sales-accuracy tests of a financial audit: 50 tests go from 9 hours by hand to about 2 hours — 4 to 5 times faster. Built in my first three weeks at Gatti Conseil.",
+      "description": "During my audit internship at Gatti Conseil, I automated the accuracy tests on a client's sales listing (IPE): checking that every sampled sale is backed by its invoice, quote or work order, and intervention report.\n\nWhat I built:\n— Ready-to-use Excel template sheets with built-in formulas and colour-coded conclusions.\n— 18 AI agents in DataSnipper: one checks that every document is present and correctly named, others extract invoices, quotes and intervention reports into the tables, each extraction is cross-checked by a second agent, and the last ones draft the conclusion comments and the list of documents to request from the client.\n— A step-by-step guide so that anyone on the team can run the test, even without prior DataSnipper experience.\n\nResult: a batch of 50 tests took a colleague 9 hours by hand; with the agents it takes about 2 hours, review included — roughly 7 hours saved per company audited, 4 to 5 times faster (initial estimate, documents already retrieved; timing on upcoming engagements in progress).\n\nThe AI does the reading and the checks; the auditor validates every entry and draws the conclusions. Every value stays linked to the exact spot on the source document, and the use of AI is documented for reviewers.\n\nClient data is confidential and not shown here.",
+      "cover": "",
+      "gallery": [],
+      "video": {
+        "youtube": "",
+        "file": ""
+      },
+      "link": "",
+      "linkLabel": ""
+    },
+    {
       "title": "Turgot Alumni",
       "tag": "Website · Leadership",
       "summary": "Alumni directory and website for the Lycée Turgot preparatory-class network, which I now chair.",
