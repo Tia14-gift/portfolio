@@ -16,7 +16,7 @@
   "linkedin": "https://www.linkedin.com/in/tiarere-lussan",
   "about": [
     "Born and raised in Tahiti, I left for Paris at 18 to join the ENS D2 preparatory class at Lycée Turgot: two intensive years of microeconomics, macroeconomics, economic history and mathematics. I then completed a final year of Economics at Université Paris 1 Panthéon-Sorbonne before joining EDHEC Business School, where I am now in the first year of the Master in Management.",
-    "Alongside my studies, I am an audit intern at Gatti Conseil, where I built AI agents that cut a key audit test from nine hours to about two. Before that, my path took me from grading Tahitian pearls for an international clientele to analysing global markets for Tahiti Tourisme and building business partnerships in Silicon Valley. What connects it all is a love of craft, culture and the people behind them, and the conviction that great objects deserve great stories.",
+    "Alongside my studies, I am an audit intern at Gatti Conseil, where I work on the statutory audit of a group of 40+ entities and built AI agents that cut a key audit test from nine hours to about two. Before that, my path took me from grading Tahitian pearls for an international clientele to analysing global markets for Tahiti Tourisme and building business partnerships in Silicon Valley. What connects it all is a love of craft, culture and the people behind them, and the conviction that great objects deserve great stories.",
     "I am now looking for two six-month internships in New York, at the meeting point of art, luxury and technology."
   ],
   "experience": [
@@ -25,8 +25,13 @@
       "role": "Audit Intern",
       "place": "Paris, France",
       "dates": "September – December 2026",
-      "summary": "Statutory audit firm. On my first engagements, I automated one of the most time-consuming audit tests with AI agents.",
+      "summary": "Statutory audit firm. I joined the audit of a 40+ entity group and automated one of the most time-consuming audit tests with AI agents.",
       "details": [
+        "Took part in the statutory audit of a group of 40+ entities (consulting and engineering holdings and subsidiaries), under ISA 315 (risk assessment) and ISA 600 (group audits).",
+        "Built an Excel workbook of audit questionnaires grouping the subsidiaries by similar operations, with an index of the groupings, used to prepare each entity's understanding memo; completed the questionnaire of a recently acquired entity.",
+        "Reviewed the articles of association (duplicates, missing documents, governance, specificities), tracked in a control table, and cross-checked official registers (Kbis, INSEE, RNE) for legal form, officers, statutory auditor and establishments.",
+        "From the holding company's memo, identified risks of material misstatement (revenue, goodwill, debt and covenants, related parties) and prepared a preselection of significant entities for the group audit, based on size and risk.",
+        "Learned CaseWare Audit: configured the Optimiser and completed the profile sheet of a subsidiary acquired in 2026.",
         "Took part in audit engagements, testing the accuracy of clients' sales listings against invoices, quotes, work orders and intervention reports.",
         "Designed two template workbooks with built-in formulas and colour-coded conclusions, one for repair jobs without a quote and one for finishing works with a quote.",
         "Built 18 AI agents in DataSnipper's Excel Agent: some extract the documents, others check those extractions in read-only mode, and the last ones draft conclusion comments and the list of documents to request from the client.",
@@ -183,7 +188,7 @@
     },
     {
       "label": "Tools",
-      "value": "Salesforce · HubSpot · Excel · PowerPoint · Adobe Suite · Canva"
+      "value": "Salesforce · HubSpot · Excel · PowerPoint · DataSnipper · CaseWare Audit · Adobe Suite · Canva"
     },
     {
       "label": "Arts",
