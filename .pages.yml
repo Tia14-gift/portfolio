@@ -67,6 +67,7 @@ content:
           - { name: summary, label: Résumé (une phrase), type: text }
           - { name: details, label: Missions (une par ligne), type: text, list: true }
           - { name: image, label: Photo (optionnel), type: image }
+          - { name: project, label: "Projet rattaché (titre exact d'un projet, optionnel)", type: string }
 
       # ── Projets ──────────────────────────────
       - name: projects
