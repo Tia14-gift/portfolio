@@ -62,6 +62,7 @@
       "summary": "The destination-marketing body of The Islands of Tahiti, working with 12 representations across 14 international markets.",
       "details": [
         "Analysed international and local markets to guide the promotion strategy of The Islands of Tahiti, with a focus on smoothing seasonality.",
+        "Prepared a strategic and budget analysis of the 2025 promotion: budget split across 13 markets, SWOT of the destination, seasonality matrix built on ISPF data, and recommendations on positioning and internal operations.",
         "Synthesised visitor profiles and school-holiday calendars for every market to sharpen off-peak targeting.",
         "Maintained performance tracking on Salesforce: data entry, quality control and reporting, including six months of KPIs for the Canadian market, and flagged indicators whose method or relevance was unclear (such as the estimated value of press trips).",
         "Proposed an economics-led format for the Brainstorming Week gathering all market representatives in Tahiti.",
@@ -121,10 +122,18 @@
       }
     },
     {
+      "title": "Strategic analysis for Tahiti Tourisme",
+      "tag": "Strategy · Destination marketing",
+      "summary": "A strategic and budget review of how The Islands of Tahiti are promoted abroad, with recommendations on positioning, internal operations and seasonality.",
+      "description": "During my internship in the International Operations Department, I prepared a strategic analysis for Tahiti Tourisme's 2025 promotion.\n\nWhat it covers\n— Budget allocation: how the promotion budget is split across 13 international markets and eight types of activities, from B2B trade work to brand campaigns and consumer events.\n— Target segments by market: luxury and eco-responsible travellers in Australia and New Zealand, couples in Europe and the United States, seniors in Japan and Korea.\n— A SWOT of tourism in French Polynesia: a unique natural and cultural heritage and no mass tourism, against high prices, dependence on a few markets and a perception centred on Bora Bora.\n— Seasonality: using public data from the Polynesian statistics institute (ISPF, 2018–2025), a month-by-month potential matrix for each market, to target the low season.\n\nMy recommendations\n— Compete on differentiation, not price, and keep one stable brand message built around mana, the Polynesian notion of spiritual energy.\n— Promote cultural and regenerative tourism, and open new segments such as business events (MICE).\n— Simplify internal operations: fewer, longer campaigns, aligned holiday calendars for every market, and fewer tools and procedures.",
+      "link": "",
+      "linkLabel": ""
+    },
+    {
       "title": "Turgot Alumni",
       "tag": "Website · Leadership",
       "summary": "Alumni directory and website for the Lycée Turgot preparatory-class network, where I serve as vice-president.",
-      "description": "As vice-president of the association, I designed and built its website from scratch: a React site deployed on Vercel, connected to a Supabase database that powers the alumni directory.\n\nFeatures: alumni sign-up, a member area where alumni log in and edit their own profile, an admin area to approve and manage entries, email notifications, GDPR consent, and searchable orientation sheets and testimonials for current preparatory-class students.\n\nI also run the association's social media and its annual orientation forum.",
+      "description": "As vice-president of the association, I designed and built its website from scratch: a React site deployed on Vercel, connected to a Supabase database that powers the alumni directory.\n\nFeatures: alumni sign-up, a member area where alumni log in and edit their own profile, an admin area to approve and manage entries, email notifications, GDPR consent, and searchable orientation sheets and testimonials for current preparatory-class students.\n\nThe association connects more than 500 former students of the Lycée Turgot preparatory classes across five tracks. Its site offers 100+ orientation sheets written by alumni, a searchable directory and live testimonials.\n\nI also run the association's social media and its annual orientation forum.",
       "link": "https://www.turgotalumni.fr",
       "linkLabel": "Visit turgotalumni.fr",
       "cover": "images/turgot-alumni-logo.svg"
@@ -132,8 +141,8 @@
     {
       "title": "Vive les Vacances !",
       "tag": "Photography · Non-profit",
-      "summary": "Photography and visual communication for a charity sending children from Lille on holiday.",
-      "description": "I photograph the children's activities and produce the association's visual communication, alongside fundraising — answering calls for projects to finance holidays — and weekly tutoring.",
+      "summary": "Lead photographer, fundraising and tutoring for a charity of 40 EDHEC student volunteers that takes children from the Lille area on holiday.",
+      "description": "Vive les Vacances ! is run by about 40 EDHEC student volunteers in Roubaix. It gives children aged 6 to 13 from the Lille area monthly outings, daily homework help and holidays.\n\nMy role\n— Lead photographer: I cover the association's main events, such as the multi-sport games, the Christmas show and the spring holidays, and produce its visual communication.\n— Fundraising: I answer calls for projects to finance the children's holidays and help maintain relations with partners.\n— Weekly tutoring for children from the local social centres.\n\nThe association's results include more than 4,000 toys collected and handed out to 1,500 children, about 100 children sent on spring holidays and 140 at the children's multi-sport games.",
       "cover": "images/vlv-cover.jpg",
       "gallery": [
         {
