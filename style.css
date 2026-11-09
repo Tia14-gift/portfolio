@@ -96,6 +96,7 @@ img, video, iframe { display: block; max-width: 100%; }
   white-space: pre-line; text-align: right; color: var(--bronze);
   font: italic 500 clamp(18px, 2.2vw, 26px)/1.25 var(--serif);
 }
+.hero p:empty { display: none; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 40px; }
 
 .btn {
