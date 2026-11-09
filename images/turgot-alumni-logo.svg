@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+  <rect width="1200" height="900" fill="#8AA8CF"/>
+  <defs><path id="t" d="M294.3 367.3 A318 318 0 0 1 905.7 367.3"/></defs>
+  <g fill="none" stroke="#F3F7FD" stroke-width="2.2" opacity=".9">
+    <path d="M382.0 766.3 A380 380 0 1 1 818.0 766.3"/>
+    <path d="M349.0 611.9 A296 296 0 1 1 851.0 611.9" stroke-width="1.6"/>
+  </g>
+  <text font-family="Didot, 'Bodoni 72', Georgia, 'Times New Roman', serif" font-size="58" letter-spacing="10" fill="#F3F7FD"><textPath href="#t" startOffset="50%" text-anchor="middle">TURGOT ALUMNI</textPath></text>
+  <g fill="none" stroke="#2F4B7C" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- lanterne et flèche -->
+    <line x1="600" y1="228" x2="600" y2="256"/>
+    <path d="M588 276 Q600 254 612 276"/>
+    <rect x="588" y="276" width="24" height="22"/>
+    <!-- dôme -->
+    <path d="M506 392 C 510 328 556 300 600 298 C 644 300 690 328 694 392 Z" fill="#8AA8CF"/>
+    <path d="M538 392 Q 534.9 330 584.5 300"/><path d="M564 392 Q 562.2 330 591.0 300"/><path d="M588 392 Q 587.4 330 597.0 300"/><path d="M612 392 Q 612.6 330 603.0 300"/><path d="M636 392 Q 637.8 330 609.0 300"/><path d="M662 392 Q 665.1 330 615.5 300"/>
+    <g fill="#2F4B7C" stroke="none"><rect x="548" y="372" width="6" height="12" rx="3"/><rect x="571" y="372" width="6" height="12" rx="3"/><rect x="597" y="372" width="6" height="12" rx="3"/><rect x="623" y="372" width="6" height="12" rx="3"/><rect x="646" y="372" width="6" height="12" rx="3"/></g>
+    <!-- attique et tambour -->
+    <rect x="496" y="392" width="208" height="20"/>
+    <line x1="486" y1="412" x2="714" y2="412"/>
+    <rect x="482" y="420" width="236" height="22"/>
+    <line x1="478" y1="452" x2="722" y2="452"/>
+    <line x1="494" y1="452" x2="494" y2="540"/><line x1="512" y1="452" x2="512" y2="540"/><line x1="530" y1="452" x2="530" y2="540"/><line x1="548" y1="452" x2="548" y2="540"/><line x1="566" y1="452" x2="566" y2="540"/><line x1="584" y1="452" x2="584" y2="540"/><line x1="602" y1="452" x2="602" y2="540"/><line x1="620" y1="452" x2="620" y2="540"/><line x1="638" y1="452" x2="638" y2="540"/><line x1="656" y1="452" x2="656" y2="540"/><line x1="674" y1="452" x2="674" y2="540"/><line x1="692" y1="452" x2="692" y2="540"/><line x1="710" y1="452" x2="710" y2="540"/>
+    <line x1="472" y1="540" x2="728" y2="540"/>
+    <!-- fronton et portique -->
+    <path d="M376 594 L600 530 L824 594 Z" fill="#8AA8CF"/>
+    <path d="M420 586 L600 538 L780 586"/>
+    <line x1="366" y1="602" x2="834" y2="602"/>
+    <line x1="398" y1="602" x2="398" y2="652"/><line x1="427" y1="602" x2="427" y2="652"/><line x1="456" y1="602" x2="456" y2="652"/><line x1="485" y1="602" x2="485" y2="652"/><line x1="514" y1="602" x2="514" y2="652"/><line x1="543" y1="602" x2="543" y2="652"/><line x1="572" y1="602" x2="572" y2="652"/><line x1="601" y1="602" x2="601" y2="652"/><line x1="630" y1="602" x2="630" y2="652"/><line x1="659" y1="602" x2="659" y2="652"/><line x1="688" y1="602" x2="688" y2="652"/><line x1="717" y1="602" x2="717" y2="652"/><line x1="746" y1="602" x2="746" y2="652"/><line x1="775" y1="602" x2="775" y2="652"/><line x1="804" y1="602" x2="804" y2="652"/>
+    <line x1="360" y1="652" x2="840" y2="652"/>
+    <line x1="340" y1="662" x2="860" y2="662"/>
+    <line x1="320" y1="672" x2="880" y2="672"/>
+  </g>
+  <text x="600" y="752" font-family="'Snell Roundhand', 'Apple Chancery', 'Brush Script MT', Georgia, serif" font-style="italic" font-size="54" fill="#F3F7FD" text-anchor="middle">D1 &amp; D2</text>
+</svg>
