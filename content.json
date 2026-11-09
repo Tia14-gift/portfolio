@@ -28,17 +28,13 @@
       "summary": "Statutory audit firm. I joined the audit of a 40+ entity group and automated one of the most time-consuming audit tests with AI agents.",
       "details": [
         "Took part in the statutory audit of a group of 40+ entities (consulting and engineering holdings and subsidiaries), under ISA 315 (risk assessment) and ISA 600 (group audits).",
-        "Built an Excel workbook of audit questionnaires grouping the subsidiaries by similar operations, with an index of the groupings, used to prepare each entity's understanding memo; completed the questionnaire of a recently acquired entity.",
-        "Reviewed the articles of association (duplicates, missing documents, governance, specificities), tracked in a control table, and cross-checked official registers (Kbis, INSEE, RNE) for legal form, officers, statutory auditor and establishments.",
-        "From the holding company's memo, identified risks of material misstatement (revenue, goodwill, debt and covenants, related parties) and prepared a preselection of significant entities for the group audit, based on size and risk.",
+        "Built an Excel workbook of audit questionnaires grouping the subsidiaries by similar operations, used to prepare each entity's understanding memo.",
+        "Reviewed articles of association and official registers (Kbis, INSEE, RNE), and identified risks of material misstatement (revenue, goodwill, debt and covenants, related parties) to preselect significant entities.",
         "Learned CaseWare Audit: configured the Optimiser and completed the profile sheet of a subsidiary acquired in 2026.",
-        "Took part in audit engagements, testing the accuracy of clients' sales listings against invoices, quotes, work orders and intervention reports.",
-        "Designed two template workbooks with built-in formulas and colour-coded conclusions, one for repair jobs without a quote and one for finishing works with a quote.",
-        "Built 18 AI agents in DataSnipper's Excel Agent: some extract the documents, others check those extractions in read-only mode, and the last ones draft conclusion comments and the list of documents to request from the client.",
-        "Cut a batch of 50 tests from 9 hours by hand to about 2 hours, review included: 4 to 5 times faster (initial estimate).",
-        "Wrote a step-by-step guide and presented the method to the team, including its safeguards and limits."
+        "Automated the sales-accuracy tests with 18 AI agents in DataSnipper: 50 tests cut from 9 hours to about 2 (initial estimate)."
       ],
-      "image": ""
+      "image": "",
+      "project": "AI agents for audit testing"
     },
     {
       "company": "Tech Butlers LLC",
@@ -61,13 +57,12 @@
       "dates": "June – August 2025",
       "summary": "The destination-marketing body of The Islands of Tahiti, working with 12 representations across 14 international markets.",
       "details": [
-        "Analysed international and local markets to guide the promotion strategy of The Islands of Tahiti, with a focus on smoothing seasonality.",
-        "Prepared a strategic and budget analysis of the 2025 promotion: budget split across 13 markets, SWOT of the destination, seasonality matrix built on ISPF data, and recommendations on positioning and internal operations.",
+        "Prepared a strategic and budget analysis of the 2025 promotion across 13 markets, with recommendations on positioning, internal operations and seasonality.",
         "Synthesised visitor profiles and school-holiday calendars for every market to sharpen off-peak targeting.",
-        "Maintained performance tracking on Salesforce: data entry, quality control and reporting, including six months of KPIs for the Canadian market, and flagged indicators whose method or relevance was unclear (such as the estimated value of press trips).",
-        "Proposed an economics-led format for the Brainstorming Week gathering all market representatives in Tahiti.",
-        "Took the minutes of the department's two-day strategy seminar aboard the Star Breeze."
-      ]
+        "Maintained performance tracking on Salesforce, including six months of KPIs for the Canadian market, and flagged indicators whose method was unclear.",
+        "Proposed an economics-led format for the Brainstorming Week gathering all market representatives in Tahiti."
+      ],
+      "project": "Strategic analysis for Tahiti Tourisme"
     },
     {
       "company": "Love Here Pearl Farm",
@@ -76,14 +71,11 @@
       "dates": "July – August 2024",
       "summary": "Three weeks living on a pearl farm on the island of Taha'a, taking part in every stage of Tahitian pearl production, from the lagoon to the client.",
       "details": [
-        "Lived on the farm and worked alongside the team every day, taking part in the whole production cycle.",
-        "Attached pearl oysters to the ropes and nets that hang vertically in the lagoon, using the traditional fisherman's knot.",
-        "Dived to secure the lines and nets underwater.",
-        "Harvested pearls from the oysters, then graded them by size, colour and surface quality: top gem, A to E, and keshi pearls sold by weight.",
-        "Sold pearls to luxury passengers of the Star Breeze cruise ship on a private motu, where storytelling and adaptability make the sale.",
-        "Handled sales administration and follow-up."
+        "Lived on the farm for three weeks and took part in the whole production cycle: lagoon work, diving, harvesting and grading.",
+        "Sold pearls to luxury passengers of the Star Breeze cruise ship on a private motu, and handled sales follow-up."
       ],
-      "image": "images/pearls-dive.jpg"
+      "image": "images/pearls-dive.jpg",
+      "project": "Tahitian pearls, from lagoon to client"
     }
   ],
   "projects": [
@@ -92,10 +84,7 @@
       "tag": "AI automation · Audit",
       "summary": "18 AI agents that automate the sales-accuracy tests of a financial audit: 50 tests go from 9 hours by hand to about 2 hours — 4 to 5 times faster. Built in my first three weeks at Gatti Conseil.",
       "description": "During my audit internship at Gatti Conseil, I automated the accuracy tests on a client's sales listing (IPE): checking that every sampled sale is backed by its invoice, quote or work order, and intervention report.\n\nWhat I built:\n— Ready-to-use Excel template sheets with built-in formulas and colour-coded conclusions.\n— 18 AI agents in DataSnipper: one checks that every document is present and correctly named, others extract invoices, quotes and intervention reports into the tables, each extraction is cross-checked by a second agent, and the last ones draft the conclusion comments and the list of documents to request from the client.\n— A step-by-step guide so that anyone on the team can run the test, even without prior DataSnipper experience.\n\nResult: a batch of 50 tests took a colleague 9 hours by hand; with the agents it takes about 2 hours, review included — roughly 7 hours saved per company audited, 4 to 5 times faster (initial estimate, documents already retrieved; timing on upcoming engagements in progress).\n\nThe AI does the reading and the checks; the auditor validates every entry and draws the conclusions. Every value stays linked to the exact spot on the source document, and the use of AI is documented for reviewers.\n\nClient data is confidential and not shown here.",
-      "cover": "images/audit-ai-agents-cover.jpg",
-      "slides": [
-        "images/audit-ai-agents-overview.jpg"
-      ]
+      "cover": "images/audit-ai-agents.svg"
     },
     {
       "title": "Tahitian pearls, from lagoon to client",
@@ -194,8 +183,12 @@
       "value": "Inside LVMH"
     },
     {
-      "label": "Tools",
-      "value": "Salesforce · HubSpot · Excel · PowerPoint · DataSnipper · CaseWare Audit · Adobe Suite · Canva"
+      "label": "Business tools",
+      "value": "Excel · PowerPoint · Salesforce · GoHighLevel · DataSnipper · CaseWare Audit · Canva"
+    },
+    {
+      "label": "AI & tech",
+      "value": "Claude · Claude Code · ChatGPT · GitHub · React · Supabase · Vercel"
     },
     {
       "label": "Arts",

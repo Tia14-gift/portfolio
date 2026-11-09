@@ -14,11 +14,14 @@ function render(S) {
   $("#focus").innerHTML = S.focus.map(esc).reduce((html, word, i) =>
     html + (i === 0 ? "" : i % 2 ? '<span class="sep">•</span>' : "<br>") + word, "");
 
-  const actions = ['<a class="btn solid" href="#projects">View my work</a>'];
+  const actions = ['<a class="btn solid" href="#experience">View my work</a>'];
   if (S.cv) actions.push(`<a class="btn" href="${esc(S.cv)}" target="_blank" rel="noopener">Download CV</a>`);
   $("#hero-actions").innerHTML = actions.join("");
 
   $("#about-text").innerHTML = S.about.map((p) => `<p class="reveal">${esc(p)}</p>`).join("");
+
+  const projectIndex = (title) => (title ? S.projects.findIndex((p) => p.title === title) : -1);
+  const linked = new Set(S.experience.map((j) => j.project).filter(Boolean));
 
   $("#experience-list").innerHTML = S.experience.map((job, i) => `
     <li class="job reveal">
@@ -38,11 +41,12 @@ function render(S) {
         <div class="job-details">
           <ul>${job.details.map((d) => `<li>${esc(d)}</li>`).join("")}</ul>
           ${job.image ? `<img src="${esc(job.image)}" alt="${esc(job.company)}" loading="lazy">` : ""}
+          ${projectIndex(job.project) > -1 ? `<p><button class="btn solid" type="button" data-project="${projectIndex(job.project)}">Discover the project</button></p>` : ""}
         </div>
       </details>
     </li>`).join("");
 
-  $("#project-list").innerHTML = S.projects.map((p, i) => `
+  $("#project-list").innerHTML = S.projects.map((p, i) => linked.has(p.title) ? "" : `
     <button class="card reveal" type="button" data-project="${i}">
       <div class="card-media">
         ${p.cover
